@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
               <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 
                     <div class="modal-body">
-                      <form id="login-form" action="function.php?act=login" method="post" enctype="application/x-www-form-urlencoded" >
+                      <form id="login-form" action="function.php?act=login" method="POST" enctype="application/x-www-form-urlencoded" >
                         <div class="form-group">
                           <div id="result"></div>
                               <label for="nama" class="col-form-label">Username :</label>
