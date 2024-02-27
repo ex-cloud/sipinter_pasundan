@@ -57,7 +57,7 @@ include "function.php";
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-      <h1>test</h1>
+      
 
       <nav id="navbar" class="navbar">
         <ul>
