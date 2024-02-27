@@ -14,7 +14,7 @@
         <label for="imt">IMT</label><br>
         <input type="text" class="form-control-tes col-lg-12" id="imt" name="imt"  ><?php echo "&emsp;kg" ?>
     </div>
-    <h1>Test Github</h1>
+    <h1>Test Githubaaaa</h1>
     <div class="form-group col-lg-6">
         <label for="lingkar">Lingkar Perut</label><br>
         <input type="text" class="form-control-tes col-lg-12" id="lingkar" name="lingkar" onkeyup="isi_otomatis()" required><?php echo "&emsp;cm" ?>
