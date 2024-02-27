@@ -1,5 +1,9 @@
 <?php
-$koneksi = mysqli_connect('localhost', 'root', '', 'db_skrining');
+$host = "localhost";
+$user = "sipinter_sipinter";
+$pass = "r=(Q5MSxdjO&";
+$db = "sipinter_db_skrining";
+$koneksi = mysqli_connect($host, $user, $pass, $db);
 
 if (mysqli_connect_errno()) {
     echo "Koneksi Database Gagal : " . mysqli_connect_error();
@@ -134,7 +138,7 @@ function register()
         $ttl=$_POST['ttl'];
         $tlp = htmlspecialchars($_POST['tlp']);
         $password = password_hash(htmlspecialchars($_POST['password']), PASSWORD_DEFAULT);
-        $query_user = "INSERT INTO user VALUES ('','pasien','$nama','$nama_lengkap', '$nik','$email',  '$ttl', '$tlp','$password')";
+        $query_user = "INSERT INTO user VALUES (NULL,'pasien','$nama','$nama_lengkap', '$nik','$email', '$ttl', '$tlp','$password')";
         $exe = mysqli_query($koneksi, $query_user);
 
             if (!$exe) {
