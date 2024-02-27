@@ -57,7 +57,12 @@ include "function.php";
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
+<<<<<<< HEAD
       
+=======
+      <h1>test</h1>
+      <h1>test esa</h1>
+>>>>>>> f62a9c394442ac046d2b570c1ca1f54632bf5e44
 
       <nav id="navbar" class="navbar">
         <ul>
