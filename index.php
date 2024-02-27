@@ -113,7 +113,7 @@ include "function.php";
     <div class="row">
       <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-          <img src="gambar/loginsipinter.png" class="card-img-top" alt="...">
+          <img src="gambar/login-sipinter.png" class="card-img-top" alt="...">
           <h4 class="title"><a href="">1. Log In</a></h4>
           <p class="description">Pengguna harus melakukan login sebelum melakukan skrining, dan lakukan registrasi jika belum memiliki akun.</p>
         </div>
